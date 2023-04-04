@@ -171,6 +171,14 @@ Site: https://themeforest.net/user/abcgomel/portfolio
 }
 
 
+.vid-pad {
+  padding-top: 80px;
+  padding-bottom: 110px;
+}
+
+
+
+
 /* #PRELOADER  ============================================== */
 /* This only works with JavaScript, 
 if it's not present, don't show loader */
