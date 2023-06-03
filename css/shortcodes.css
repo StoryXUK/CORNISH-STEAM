@@ -1345,7 +1345,7 @@
 		float: left;
 		width: 20%;
 		min-height: 30px;
-		border: 1px solid #ddd;
+		/* border: 1px solid #ddd; */
 		box-sizing: border-box;
 		text-align: center;
 		margin: 0px;
