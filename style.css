@@ -1,8 +1,7 @@
 /*------------------------------------------------------------------
-Project:	Harington - Creative Portfolio Template
+Project:	Mission Zero - StoryX
 Version:	1.0
-Last change:	04/11/2022
-Assigned to:	www.clapat.com 
+ 
 Primary use:	Showcase Portfolio 
 -------------------------------------------------------------------*/
 
@@ -4149,4 +4148,11 @@ nav.open {
 	#rotate-device {
 		display: block;
 	}
+}
+
+
+
+@media (max-width: 640px) 
+{
+  .mobile-remove {display: none;}
 }
