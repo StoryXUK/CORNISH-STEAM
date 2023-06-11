@@ -168,57 +168,13 @@
                 </header>
                 <!--/Header -->
 
-                <!-- *** / Menu icon *** -->
-
-                <!-- *** Constellation *** -->
-                <canvas id="constellationel"></canvas> <!-- Canvas displaying the animation -->
-
-                <div id="constellation"></div>
-                <!-- Used to display your background picture, set up the path to your picture in your css/style.css file OR replace the img/constellation.jpg file by yours -->
-
-                <!-- The overlay that you can see over the animation is generated with the following CSS rule : .custom-overlay, it can be found in your style.css file under 2. GENERIC STYLES part -->
-                <div class="custom-overlay"></div>
-
-
+               
 
                 <!-- *** Fullpage sections *** -->
                 <div id="fullpage">
 
                     
 
-                    <!-- Row -->
-                    <div class="content-row full dark-section change-header-color" data-bgcolor="#eee">
-
-                        <figure class="has-parallax has-parallax-content" data-delay="100">
-                            <img src="images/shortcodes/collage02.jpg" alt="Image Title">
-                            <div class="parallax-image-content content-max-width text-align-center">
-                                <div class="outer">
-                                    <!-- <div class="inner">
-                                    <p class="has-mask-fill no-margins blockquote lowercase">“We stand
-                                        on the brink of a
-                                        technological revolution that will fundamentally alter the way
-                                        we live,
-                                        work, and relate to one another. In its scale, scope, and
-                                        complexity, the
-                                        transformation will be unlike anything humankind has experienced
-                                        before. We
-                                        do not yet know just how it will unfold, but one thing is clear:
-                                        the
-                                        response to it must be integrated and comprehensive, involving
-                                        all
-                                        stakeholders of the global polity, from the public and private
-                                        sectors to
-                                        academia and civil society.” <br>- Klaus Schwab. Founder and
-                                        Executive Chairman,
-                                        World Economic Forum Geneva</p>
-
-                                </div> -->
-                                </div>
-                            </div>
-                        </figure>
-
-                    </div>
-                    <!--/Row -->
 
                     <!-- Content Scroll -->
                     <div id="content-scroll">
@@ -230,8 +186,11 @@
                         <div id="main">
 
                             <!-- Hero Section -->
-                            <div id="hero">
+                            <div id="hero-constellation">
+                                
                                 <div id="hero-styles">
+                                    <div class="hero-overlay">
+                                        
                                     <div id="hero-caption"
                                         class="content-full-width parallax-scroll-caption indent-title">
                                         <div class="inner">
@@ -261,7 +220,9 @@
                                         </div>
                                     </div> -->
                                 </div>
-                            </div>
+                                </div>
+                            
+                        </div>
                             <!--/Hero Section -->
 
 
@@ -986,11 +947,13 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js'></script>
     <script type="text/javascript"
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpK1sWi3J3EbUOkF_K4-UHzi285HyFX5M&sensor=false"></script>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="js/clapatwebgl.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/common.js"></script>
     <script src="js/contact.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/constellation.js"></script>
 
 
 
