@@ -1,7 +1,31 @@
  	
 /*--------------------------------------------------
+	Hero Section - Home Page
+---------------------------------------------------*/	
+
+#constellationel {
+	position: fixed;
+	z-index: -30;
+	top: 0;
+	left: 0;
+  }
+  
+  #constellation {
+	position: fixed;
+	z-index: -31;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("../img/constellation.jpg") center center;
+	background-size: cover;
+  }
+
+
+
+/*--------------------------------------------------
 	Hero Section
----------------------------------------------------*/			
+---------------------------------------------------*/	
 	
 	.hero-below-caption .hero-translate {
 		position: fixed;
