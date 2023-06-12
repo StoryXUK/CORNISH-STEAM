@@ -1,5 +1,5 @@
 
-  particlesJS("hero-constellation", {
+particlesJS("hero-image-wrapper-constellation", {
     particles: {
       number: {
         value: 80, // Adjust the number of particles
