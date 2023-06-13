@@ -62,8 +62,8 @@
     
 }
 
-.hero-overlay-text {
-    font-size: 68px;
+#hero-overlay-text {
+    font-size: 165px;
     font-weight: bold;
     color: white;
     text-align: left;
