@@ -817,6 +817,7 @@ p {
 	font-size: 16px;
 	line-height: 26px;
 	margin-bottom: 25px;
+	text-align: justify;
 	color: #222;
 	font-family: 'basis_grotesque_proregular', sans-serif;
 }
