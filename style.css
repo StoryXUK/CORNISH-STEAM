@@ -4204,3 +4204,9 @@ nav.open {
 
 
   .padding-top-400 {padding-top: 50px;}
+
+
+  .sketchfab-embed-wrapper {
+    
+    margin: 0 auto; /* Center the iframe horizontally */
+  }
