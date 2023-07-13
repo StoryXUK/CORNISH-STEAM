@@ -1666,7 +1666,7 @@ scale-up .link,
 .preloader-wrap {
 	width: 100%;
 	height: 100%;
-	margin: 10px;
+	
 	position: fixed;
 	top: 0;
 	bottom: 0;
@@ -4156,10 +4156,7 @@ nav.open {
 
 
 
-@media (max-width: 640px) 
-{
-  .mobile-remove {display: none;}
-}
+@media (max-width: 640px) {
 
 
 
@@ -4214,9 +4211,9 @@ nav.open {
     margin: 0 auto; /* Center the iframe horizontally */
   }
 
+}
 
-
-  @media only screen and (min-width: 767px) {
+  /* @media only screen and (min-width: 767px) {
 
   .mobile-remove {display: none;}
-  }
+  } */
