@@ -3374,7 +3374,7 @@ nav.open {
 
 @media only screen and (max-width: 1024px) {
 
-	.mobile-remove {display: none;}
+	
 
 	h1.big-title {
 		font-size: 10vw;
@@ -4212,4 +4212,11 @@ nav.open {
   .sketchfab-embed-wrapper {
     
     margin: 0 auto; /* Center the iframe horizontally */
+  }
+
+
+
+  @media only screen and (min-width: 767px) {
+
+  .mobile-remove {display: none;}
   }
