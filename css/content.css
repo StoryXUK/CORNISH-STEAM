@@ -49,6 +49,7 @@
 	#hero-constellation {
 		width: auto;
 		height: 100%;
+		min-height: 500px;
 		position: relative;
 		z-index: 20;
 		overflow: hidden;

@@ -1827,6 +1827,13 @@
 	
 }
 
-@media only screen and (max-width: 479px) {
-	
-}
+@media screen and (max-width: 600px) {
+	.mobile-remove {
+	  visibility: hidden;
+	  clear: both;
+	  float: left;
+	  margin: 10px auto 5px 20px;
+	  width: 28%;
+	  display: none;
+	}
+  }
