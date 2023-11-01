@@ -1,0 +1,23 @@
+body {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#logo {
+    max-width: 80%;
+    height: auto;
+}
+
+#launching-text {
+    font-family: 'basis_grotesque_promedium', sans-serif;
+    font-weight: 100;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
